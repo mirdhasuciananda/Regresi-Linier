@@ -21,7 +21,6 @@ b = (inv(A'*A)*A')*y;
 y_predict = zeros (k,1);
 for i=1:k
     y_predict(i) = b(1,1) + b(2,1)*x1(i) + b(3,1)*x2(i) + b(4,1)*x3(i);
-    i=i+1;
 end
 
 %% Visualisasi
