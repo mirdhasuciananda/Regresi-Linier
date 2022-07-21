@@ -37,7 +37,6 @@ b0 = (valy/k) - b1*(valx/k);
 y_predict = zeros (1,k);
 for i=1:k
     y_predict(i) = b0 + b1*x(i);
-    i=i+1;
 end
 
 %% Visualisasi
